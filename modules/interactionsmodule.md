@@ -4,7 +4,7 @@ Updated for version 3.38.
 
 ## Module Definition
 
-The module is inherited from [ItemModuleBase](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/ModuleBase#ItemModuleBase). So base parameters can be found there.
+The module is inherited from [ItemModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase#itemmodulebase). So base parameters can be found there.
 
 This modules allows you to add custom interactions to be used by custom maps for example.
 
@@ -58,7 +58,7 @@ This example is what you would put inside your main node within your [mod config
 </Interactions>
 ```
 
-This will add the interaction `my_interaction`. You will still need to localize the name of the track. In this case `hud_my_interaction` will need to be localized \([LocalizationModule](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/LocalizationModule)\).
+This will add the interaction `my_interaction`. You will still need to localize the name of the track. In this case `hud_my_interaction` will need to be localized \([LocalizationModule](https://luffyyy.gitbook.io/beardlib/modules/localizationmodule)\).
 
 ### Functions
 

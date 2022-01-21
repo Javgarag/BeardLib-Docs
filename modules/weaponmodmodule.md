@@ -6,7 +6,7 @@ This page is missing some information.
 
 ## Module Definition
 
-The module is inherited from [ItemModuleBase](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/ModuleBase#ItemModuleBase). So base parameters can be found there.
+The module is inherited from [ItemModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase#itemmodulebase). So base parameters can be found there.
 
 This modules let's you add weapon aprts.
 
@@ -31,7 +31,7 @@ The name of the module you use as the meta of the module definition is 'WeaponMo
 | ver | Number | The version of the module. Version 2 should be used now. It does the following: Defaults pcs to an empty table \(use hidden=true to hide parts!\) and makes guess\_unit default to true |
 | guess\_unit | Boolean | Guesses the unit for you. The resulted unit will be "units/mods/weapons/`id`/`id` Defaults to true with ver=2 |
 | wpn\_pts | String | Like `guess_unit` but receives a weapon factory ID to put the parts in. The unit will be in: units/mods/weapons/`wpn_pts`\_pts/`id` |
-| global\_value | String | For packs of mods, a global id assigned to all. A nice way to label your mods. You'll still have to create the global value through [GlobalValueModule](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/GlobalValueModule) |
+| global\_value | String | For packs of mods, a global id assigned to all. A nice way to label your mods. You'll still have to create the global value through [GlobalValueModule](https://luffyyy.gitbook.io/beardlib/modules/globalvaluemodule) |
 | override | Table | Overrides data of other attachments when this attachments in added to weapon |
 | adds | Table | List of additional attachments added with this attachment |
 | forbids | Table | List of attachments that can't be used with this attachments. Note. If attachment on list is currently on weapon it will be removed after adding this attachment |
@@ -39,7 +39,7 @@ The name of the module you use as the meta of the module definition is 'WeaponMo
 | weapons\_override | Table | A table of weapons and the override they should have for the part |
 | parts\_override | Table | A table of weapon mods and the override they should have for the part |
 | parts\_forbids | Table | A table of weapon mods ids that can't work with the part |
-| unit | String | Optional path to the first person unit. Defaults to units/mods/weapons/`id`/`id` You still need to add it through [AddFiles](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/AddFiles) and all its dependencies such as object and material config |
+| unit | String | Optional path to the first person unit. Defaults to units/mods/weapons/`id`/`id` You still need to add it through [AddFiles](https://luffyyy.gitbook.io/beardlib/modules/addfilesmodule) and all its dependencies such as object and material config |
 | third\_unit | String | Optional path to the third person unit. You usually don't need a third person unit for weapon parts |
 | stance\_mod | Table | A table of weapon ids -&gt; translation and rotation. Usually used by sights to set a custom stance for the weapon mod \(Lets you align the weapon with the sight to the center of the screen\) |
 | name\_id | String | Localization ID for the title \(Defaults to bm_wp_ + `id`\) |
@@ -56,7 +56,7 @@ And any other tweakdata value. There are more that are not listed here yet.
 
 #### The icon
 
-The icon will be stored in guis/dlcs/mods/textures/pd2/blackmarket/icons/mods and will be named `id`.texture then add it using [AddFiles](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/AddFiles).
+The icon will be stored in guis/dlcs/mods/textures/pd2/blackmarket/icons/mods and will be named `id`.texture then add it using [AddFiles](https://luffyyy.gitbook.io/beardlib/modules/addfilesmodule).
 
 ### Example
 
@@ -71,7 +71,7 @@ This example is what you would put inside your main node within your [mod config
 </WeaponMod>
 ```
 
-This will add another saw blade to the saw. Based on an existing saw blade. You will still need to localize the title of the part. In this case `bm_wp_wpn_part_YOUR_PART_NAME` will need to be localized using [LocalizationModule](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/LocalizationModule). And add unit, object, material\_config, textures and icon through [AddFiles](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/AddFiles) Thankfully shortcuts make it easier:
+This will add another saw blade to the saw. Based on an existing saw blade. You will still need to localize the title of the part. In this case `bm_wp_wpn_part_YOUR_PART_NAME` will need to be localized using [LocalizationModule](https://luffyyy.gitbook.io/beardlib/modules/localizationmodule). And add unit, object, material\_config, textures and icon through [AddFiles](https://luffyyy.gitbook.io/beardlib/modules/addfilesmodule) Thankfully shortcuts make it easier:
 
 ```markup
 <AddFiles directory="assets">

@@ -4,7 +4,7 @@ Updated for version 3.38.
 
 ## Module Definition
 
-The module is inherited from [ItemModuleBase](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/ModuleBase#ItemModuleBase). So base parameters can be found there.
+The module is inherited from [ItemModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase#itemmodulebase). So base parameters can be found there.
 
 This module will allow you to add your own achievements within your mods. They will appear in the Custom Achievements menu which can be accessed next to the button to check on BeardLib mods.
 

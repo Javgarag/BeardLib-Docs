@@ -20,7 +20,7 @@ Contains a few useful functions.
 
 ### Functions
 
-The BeardLib class inherits most of the functions found in [ModCore](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/ModCore#functions)
+The BeardLib class inherits most of the functions found in [ModCore](https://luffyyy.gitbook.io/beardlib/api/modcore#functions)
 
 #### Usable functions
 
@@ -29,13 +29,13 @@ The BeardLib class inherits most of the functions found in [ModCore](https://git
 | AddUpdater\(String id, Function clbk, Boolean paused\) | Adds an updater which is called after the update function is called. `id` being the ID of your updater, `clbk` is the function/callback, and `paused` determines if the updater should run when paused |
 | RemoveUpdater\(String id\) | Removes updater with id `id` |
 | CallOnNextUpdate\(Function func, Boolean only\_unpaused, Boolean only\_paused\) | Adds a function to be called in the next update. After it's called once it won't be called again unless you run this again. `only_unpaused` determines if the function should only run in unpaused state and `only_paused` is the opposite of it. If both `only_paused` and `only_unpaused` are not defined the function will run in both |
-| RegisterModule\(String key, Table module\) | Registers a module with `key` which is the type\_name of the module and `module` is the class/table of it. Unlike frameworks you must define this one if you create a module not using [MoudlesModule](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/ModulesModule). |
+| RegisterModule\(String key, Table module\) | Registers a module with `key` which is the type\_name of the module and `module` is the class/table of it. Unlike frameworks you must define this one if you create a module not using [MoudlesModule](https://luffyyy.gitbook.io/beardlib/modules/modulesmodule). |
 | GetPath\(\) | Returns the path of BeardLib. Should always be "mods/BeardLib" |
 | RegisterFramework\(String name, Table clss\) | Adds a framework class to the framweworks list \(Called automatically even if you create a custom framework\). Though, in extreme cases you may need to use it |
 | RegisterManager\(String name, Table clss\) | Registers a manager class for BeardLib |
 | RegisterMenu\(String name, Table clss\) | Registers a menu class for BeardLib. For example, the mods menu |
 | RegisterClass\(String name, Any obj, Number typ\) | Registers a class. `name` is the key of the class, `obj` is the class itself, and `typ` is one of the values of BeardLib.Constants.ClassTypes. Generally used internally and is verbose. |
-| ModError\(ModCore mod, String str, ...\) | Called usually by [ModCore](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/ModCore#functions) itself. This error is a little different than the regular Err function in that this will show a message to the user. |
+| ModError\(ModCore mod, String str, ...\) | Called usually by [ModCore](https://luffyyy.gitbook.io/beardlib/api/modcore#functions) itself. This error is a little different than the regular Err function in that this will show a message to the user. |
 
 #### Core functions
 

@@ -2,7 +2,7 @@
 
 Updated for version 3.36.
 
-All values and functions are inherited from here: [https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Item](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Item)
+All values and functions are inherited from here: [https://luffyyy.gitbook.io/beardlib/menuui/menuui-item](https://luffyyy.gitbook.io/beardlib/menuui/menuui-item)
 
 ## Holder
 

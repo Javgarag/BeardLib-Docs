@@ -4,7 +4,7 @@ Updated for version 3.38.
 
 ## Module Definition
 
-The module is inherited from [ModuleBase](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/ModuleBase). So base parameters can be found there.
+The module is inherited from [ModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase). So base parameters can be found there.
 
 ### Module name
 
@@ -54,7 +54,7 @@ There are two ways of modding scriptdata:
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
 | use\_clbk | String | Path/name to callback that would be called before scriptdata mod gets applied, if the callback returns true, the scriptdata mod will be applied. Can be "self.UseFunc" or "ClassClbk\(class, 'UseFunc'\)" |
-| merge\_mode | String | How should the scriptdata mode be applied, the modes are:`replace` Replaces the scriptdata entirely, default.`merge` Merges with the scriptdata.`script_merge` A dynamic merge with the script, allows you to remove specific parts of the scriptdata, merge with specific parts or replace specifc parts. Read about script\_merge [here](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/table#other) and see examples [here](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/table#script_merge-examples). You can see removal of a part in the example below |
+| merge\_mode | String | How should the scriptdata mode be applied, the modes are:`replace` Replaces the scriptdata entirely, default.`merge` Merges with the scriptdata.`script_merge` A dynamic merge with the script, allows you to remove specific parts of the scriptdata, merge with specific parts or replace specifc parts. Read about script\_merge [here](https://luffyyy.gitbook.io/beardlib/utilities/table#other) and see examples [here](https://luffyyy.gitbook.io/beardlib/utilities/table#script_merge-examples). You can see removal of a part in the example below |
 
 ### Examples
 

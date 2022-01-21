@@ -4,9 +4,9 @@ Updated for version 3.38.
 
 ## Module Definition
 
-The module is inherited from [ItemModuleBase](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/ModuleBase#ItemModuleBase). So base parameters can be found there.
+The module is inherited from [ItemModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase#itemmodulebase). So base parameters can be found there.
 
-This modules let's you change tweakdata through XML. The module uses [TweakDataHelper](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/TweakDataHelper) to inject to the tweakdata.
+This modules let's you change tweakdata through XML. The module uses [TweakDataHelper](https://luffyyy.gitbook.io/beardlib/utilities/tweakdatahelper) to inject to the tweakdata.
 
 ### Module name
 

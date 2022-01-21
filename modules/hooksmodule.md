@@ -4,7 +4,7 @@ Updated for version 3.38.
 
 ## Module Definition
 
-The module inherits [BasicModuleBase](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/BasicModuleBase). All parameters and functions of this class are inherited by the module.
+The module inherits [ModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase). All parameters and functions of this class are inherited by the module.
 
 ### Module name
 

@@ -4,7 +4,7 @@ Updated for version 3.38.
 
 ## Module Definition
 
-The module is inherited from [ItemModuleBase](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/ModuleBase#ItemModuleBase). So base parameters can be found there.
+The module is inherited from [ItemModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase#itemmodulebase). So base parameters can be found there.
 
 This modules let's you add melee weapons.
 
@@ -24,7 +24,7 @@ The name of the module you use as the meta of the module definition is 'Melee' o
 | :--- | :--- | :--- |
 | id | String | The ID of the melee weapon |
 | based\_on | String | An ID of an existing melee you want to base your melee on. Defaults to `kebar`. Full list here [https://modworkshop.net/wiki.php?action=view&id=7\#Melee](https://modworkshop.net/wiki.php?action=view&id=7#Melee) |
-| global\_value | String | For packs of mods, a global id assigned to all. A nice way to label your mods. You'll still have to create the global value through [GlobalValueModule](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/GlobalValueModule) |
+| global\_value | String | For packs of mods, a global id assigned to all. A nice way to label your mods. You'll still have to create the global value through [GlobalValueModule](https://luffyyy.gitbook.io/beardlib/modules/globalvaluemodule) |
 | unit | String | Optional path to the first person unit Defaults to units/mods/weapons/wpn_mel_`id`/wpn_mel_`id` |
 | third\_unit | String | Optional path to the third person unit. Mostly not needed with 3.38 and above |
 | name\_id | String | Localization ID for the title \(Defaults to bm_melee_ + `id`\) |
@@ -53,7 +53,7 @@ And any other tweakdata value. There are more that are not listed here yet.
 
 #### The icon
 
-The icon will be stored in guis/textures/pd2/blackmarket/icons/melee\_weapons \(unless you use texture\_bundle\_folder\) and will be named `id`.texture then add it using [AddFiles](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/AddFiles).   
+The icon will be stored in guis/textures/pd2/blackmarket/icons/melee\_weapons \(unless you use texture\_bundle\_folder\) and will be named `id`.texture then add it using [AddFiles](https://luffyyy.gitbook.io/beardlib/modules/addfilesmodule).   
 Yep, pretty long path. Thanks Overkill.
 
 ### Example
@@ -64,7 +64,7 @@ This example is what you would put inside your main node within your [mod config
 <Melee id="captains_shield" based_on="briefcase" global_value="captains_shield"/>
 ```
 
-This will add the melee `captains_shield`, which is based on the briefcase. You will still need to localize the title and description of the material. In this case `bm_melee_captains_shield` and `bm_msk_troll_dallas_desc` will need to be localized using [LocalizationModule](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/LocalizationModule). And add unit, object, material\_config, textures and icon through [AddFiles](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/AddFiles)
+This will add the melee `captains_shield`, which is based on the briefcase. You will still need to localize the title and description of the material. In this case `bm_melee_captains_shield` and `bm_msk_troll_dallas_desc` will need to be localized using [LocalizationModule](https://luffyyy.gitbook.io/beardlib/modules/localizationmodule). And add unit, object, material\_config, textures and icon through [AddFiles](https://luffyyy.gitbook.io/beardlib/modules/addfilesmodule)
 
 #### Template
 

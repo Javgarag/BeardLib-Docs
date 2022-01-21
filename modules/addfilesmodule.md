@@ -2,7 +2,7 @@
 
 Updated for version 4.0.
 
-The module inherits [BasicModuleBase](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/BasicModuleBase). All parameters and functions of this class are inherited by the module.
+The module inherits [ModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase). All parameters and functions of this class are inherited by the module.
 
 ## Module name
 
@@ -203,9 +203,7 @@ Uses the same parameters as `<AddFiles>`. It will inherit the top AddFiles's val
 
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
-
-
-file\|String\|Path to the file that will be auto generated. Defaults to gen\_add.xml \(Do not confuse with add.xml. gen\_add.xml is loaded by the module not framework\).
+file | String | Path to the file that will be auto generated. Defaults to gen\_add.xml \(Do not confuse with add.xml. gen\_add.xml is loaded by the module not framework\).
 
 ### `<ignore>`
 
@@ -310,8 +308,8 @@ Or a unit with patterns:
 | Function | Description |
 | :--- | :--- |
 | Load\(\) | This is called normally by the module's init function, this is what adds all the files to the game that have been defined in the module definition |
-| Unload\(\) | This will remove all the added files from the game's database. This is only called by default if the AddFilesModule has been added through the [LevelModule](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/LevelModule) |
-| LoadPackageConfig\(...\) | Same as in [CustomPackageManager](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/CustomPackageManager). Called in :Load\(\) |
-| UnloadPackageConfig\(...\) | Same as in [CustomPackageManager](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/CustomPackageManager). Called in :Unload\(\) |
-| AddFileWithCheck\(...\) | Same as in [CustomPackageManager](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/CustomPackageManager) |
+| Unload\(\) | This will remove all the added files from the game's database. This is only called by default if the AddFilesModule has been added through the [LevelModule](https://luffyyy.gitbook.io/beardlib/modules/levelmodule) |
+| LoadPackageConfig\(...\) | Same as in [BeardLibPackageManager](https://luffyyy.gitbook.io/beardlib/api/beardlibpackagemanager#other). Called in :Load\(\) |
+| UnloadPackageConfig\(...\) | Same as in [BeardLibPackageManager](https://luffyyy.gitbook.io/beardlib/api/beardlibpackagemanager#other). Called in :Unload\(\) |
+| AddFileWithCheck\(...\) | Same as in [BeardLibPackageManager](https://luffyyy.gitbook.io/beardlib/api/beardlibpackagemanager#other) |
 

@@ -4,7 +4,7 @@ Updated for version 3.38.
 
 ## Module Definition
 
-The module is inherited from [ModuleBase](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/ModuleBase). So base parameters can be found there.
+The module is inherited from [ModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase). So base parameters can be found there.
 
 The main purpose of this module is to emulate a 'package' that the game normally uses to load assets for various purposes \(such as levels\). Everything in PackageManager should support your 'added' package, except the PackageManager:package function.
 
@@ -31,7 +31,7 @@ The name of the module you use as the meta of the module definition is 'Package'
 
 #### `<extension path force load reload unload/>`
 
-See: [AddFilesModule](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/AddFilesModule)
+See: [AddFilesModule](https://luffyyy.gitbook.io/beardlib/modules/addfilesmodule)
 
 ### Example
 

@@ -2,7 +2,7 @@
 
 Updated for version 4.0.
 
-To understand how some functions work here read about [AddFilesModule](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/AddFilesModule)
+To understand how some functions work here read about [AddFilesModule](https://luffyyy.gitbook.io/beardlib/modules/addfilesmodule)
 
 ## BeardLibPackageManager class
 
@@ -26,7 +26,7 @@ Access it using BeardLib.Managers.Package
 
 | Function | Return Type | Description |
 | :--- | :--- | :--- |
-| RegisterPackage\(String id, String directory, Table config\) | Boolean | Registers a package to be loaded using `PackageManager:load` or `BeardLib.Managers.Package:Load`. `id` is the ID \(think of the "path" for normal package\), `directory` the directory for the assets. Usually ModPath + "/assets" or "/Assets" the files inside the game will have the path _after_ the defined directory, `config` is the package config. Almost identical to [AddFilesModule](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/AddFilesModule). And yes, this means that the config uses \_meta values to know what file type is each table. It is recommended to use [PackageModule](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/PackageModule) to add custom packages |
+| RegisterPackage\(String id, String directory, Table config\) | Boolean | Registers a package to be loaded using `PackageManager:load` or `BeardLib.Managers.Package:Load`. `id` is the ID \(think of the "path" for normal package\), `directory` the directory for the assets. Usually ModPath + "/assets" or "/Assets" the files inside the game will have the path _after_ the defined directory, `config` is the package config. Almost identical to [AddFilesModule](https://luffyyy.gitbook.io/beardlib/modules/addfilesmodule). And yes, this means that the config uses \_meta values to know what file type is each table. It is recommended to use [PackageModule](https://luffyyy.gitbook.io/beardlib/modules/packagemodule) to add custom packages |
 | LoadPackage\(String id\) | Boolean | Loads a custom package. `id` is the id of the package |
 | UnloadPackage\(String id\) | Boolean | Unloads a custom package |
 | PackageLoaded\(String id\) | Boolean | Returns a boolean determining if the package is loaded |
@@ -38,7 +38,7 @@ Access it using BeardLib.Managers.Package
 | :--- | :--- |
 | LoadPackageConfig\(String directory, Table config, Boolean temp\) | The function that goes through `config` and loads all files defined there. Pretty much to understand how it works you need to understand how AddFilesModule works. `directory` is the directory of the assets and `temp` will unload the files on restart |
 | AddFileWithCheck\(Idstring ext, Idstring path, String file\) | Adds a file but checks if the file exists first. Calls `self:Err` if the file was not found \(In AddFilesModule it will call the error on the module class not BeardLib in general\) That error shows up in developer mode's errors dialog |
-| Err\(...\) | Calls [BeardLib:Err](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/BeardLib-Class#usable-functions) |
+| Err\(...\) | Calls [BeardLib:Err](https://luffyyy.gitbook.io/beardlib/api/beardlib-class#usable-functions) |
 | UnloadPackageConfig\(Table config\) | Called by `:UnloadPackage` and unloads the files of `config` |
 | Unload\(\) | Unloads packages that unload on restart. Called by a PostHook in `Setup:unload_packages` |
 

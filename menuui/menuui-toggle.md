@@ -2,7 +2,7 @@
 
 Updated for version 3.36.
 
-**It's recommended to first read about the base item before reading about other items** [https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Item](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Item)
+**It's recommended to first read about the base item before reading about other items** [https://luffyyy.gitbook.io/beardlib/menuui/menuui-item](https://luffyyy.gitbook.io/beardlib/menuui/menuui-item)
 
 ## Toggle
 

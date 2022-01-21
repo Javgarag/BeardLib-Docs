@@ -18,7 +18,7 @@ The main utilities class
 | normalize\_string\_value\(String value\) | Any | Returns the object value from a string representation of the value. For example: "Vector3\(0,0,0\)" will return a vector3 object. This function supports: Vector3, Rotation, Color and callback, ClassClbk, SimpleClbk, etc |
 | StringToValue\(String str, Table global\_tbl, Boolean silent\) | Any | Returns a value from a string. `str` can be like "self.value" self being `global_tbl`. It can also do something like self.tbl.x.y.z `str` is the string that needs conversion, `global_tbl` can be left out which will default to \_G or set as some class. `silent` decides whether to log when an error has hit |
 | UrlEncode\(String str\) | String | Returns a string version of the passed str which is encoded for urls |
-| FindMod\(String name\) | ModCore | Searches a mod \(All mods including these not in frameworks\) with the name `name` and returns its ModCore class if it finds it; returns null if not found. If you know which framework the mod resides in, please use the [framework](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/Frameworks) functions |
+| FindMod\(String name\) | ModCore | Searches a mod \(All mods including these not in frameworks\) with the name `name` and returns its ModCore class if it finds it; returns null if not found. If you know which framework the mod resides in, please use the [framework](https://luffyyy.gitbook.io/beardlib/api/frameworks) functions |
 | ModExists\(String name\) | Boolean | Returns a boolean determining if the mod exists in the game |
 | ModLoaded\(String name\) | Boolean | Returns a boolean determining if the mod exists and is loaded \(not disabled\) |
 | FindModWithPath\(String path\) | ModCore | Returns a mod in `path` |
