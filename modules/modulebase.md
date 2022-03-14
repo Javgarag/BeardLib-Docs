@@ -31,9 +31,10 @@ Updated for version 3.38.
 
 | Variable | Type | Description |
 | :--- | :--- | :--- |
-
-
-type\_name\|String\|The name of the module. This is used when the module is registered with `BeardLib:RegisterModule` Example: "Weapon"\| required\_params\|Table\|Required parameters for the module to have. For example ItemModuleBase has "id" as a required parameter\| \|auto\_load\|Boolean\|Should the :Load\(\) function be automatically called? This is set to true in this class but not in ItemModuleBase \(doesn't use it actually\) and not in some select few modules\| \_loose\|Boolean\|Decides if the module can be used a few times in the same mod. True by default for ItemModuleBase\|
+type\_name | String | The name of the module. This is used when the module is registered with `BeardLib:RegisterModule` Example: "Weapon" | 
+| required\_params | Table | Required parameters for the module to have. For example ItemModuleBase has "id" as a required parameter |
+| auto\_load | Boolean | Should the :Load\(\) function be automatically called? This is set to true in this class but not in ItemModuleBase \(doesn't use it actually\) and not in some select few modules | 
+| \_loose | Boolean | Decides if the module can be used a few times in the same mod. True by default for ItemModuleBase | 
 
 ### Functions
 
@@ -43,8 +44,10 @@ type\_name\|String\|The name of the module. This is used when the module is regi
 | Load\(\) | Loads the module. This is called after the mod has been initialized and is ready to load the modules' code. **Note**: Not all modules use this function to load. |
 | PostInit | A function called after all modules of the mod were loaded. This is useful when you need a little late point to load the module |
 | Log\(String str, ...\) | A log function. The parameters act like string.format |
-
-Err\(String str, ...\)\|Logs an error message to the console \(\[ERROR\] + message\). The parameters are like in string.format. The errors get logged and shown in errors dialog if developer mode is active\| Warn\(String str, ...\)\|Logs a warning message to the console \(\[WARN\] + message\). The parameters are like in string.format\| \|LogErr\(...\)\|Same as `Err` but never adds the error to the errors dialog\| \|GetPath\(String directory, String prev\_dir\)\|A simple function used by some modules to join paths. if prev\_dir is null it will use ModPath instead.
+| Err\(String str, ...\) | Logs an error message to the console \(\[ERROR\] + message\). The parameters are like in string.format. The errors get logged and shown in errors dialog if developer mode is active | 
+| Warn\(String str, ...\) | Logs a warning message to the console \(\[WARN\] + message\). The parameters are like in string.format |
+| LogErr\(...\) | Same as `Err` but never adds the error to the errors dialog |
+| GetPath\(String directory, String prev\_dir\) | A simple function used by some modules to join paths. if prev\_dir is null it will use ModPath instead.
 
 ## ItemModuleBase
 

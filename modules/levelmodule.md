@@ -2,7 +2,7 @@
 
 ## Module Definition
 
-The module is inherited from [ModuleBase](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/ModuleBase). So base parameters can be found there.
+The module is inherited from [ModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase). So base parameters can be found there.
 
 ### Module name
 
@@ -56,15 +56,15 @@ The name of the module you use as the meta of the module definition is 'level' o
 
 #### `<add ...> ...`
 
-[AddFilesModule](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/AddFilesModule) which is used when the level is being played. i.e. to have assets which are designed for your level.
+[AddFilesModule](https://luffyyy.gitbook.io/beardlib/modules/addfilesmodule) which is used when the level is being played. i.e. to have assets which are designed for your level.
 
 #### `<script_data_mods ...> ...`
 
-[ScriptReplacementsModule](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/ScriptReplacementsModule) which is used when the level is being played. i.e. to have script data which should only be used when the level is being played.
+[ScriptReplacementsModule](https://luffyyy.gitbook.io/beardlib/modules/scriptreplacementsmodule) which is used when the level is being played. i.e. to have script data which should only be used when the level is being played.
 
 #### `<hooks ...> ...`
 
-[HooksModule](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/HooksModule) which is used when the level is being played. i.e. to have lua modifications that are used when the level is being played.
+[HooksModule](https://luffyyy.gitbook.io/beardlib/modules/hooksmodule) which is used when the level is being played. i.e. to have lua modifications that are used when the level is being played.
 
 #### `<custom_packages>`
 
@@ -93,7 +93,7 @@ Table of packages that should be loaded when playing the level. Packages are the
 
 ### Example
 
-See [MapFramework](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/MapFramework)
+See [MapFramework](https://luffyyy.gitbook.io/beardlib/api/frameworks#mapframework)
 
 ## Functions
 

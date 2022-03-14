@@ -6,7 +6,7 @@ This page is missing some information, such as explaining what is skin\_folder a
 
 ## Module Definition
 
-The module is inherited from [ItemModuleBase](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/ModuleBase#ItemModuleBase). So base parameters can be found there.
+The module is inherited from [ItemModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase#itemmodulebase). So base parameters can be found there.
 
 ### Module Name
 
@@ -33,8 +33,8 @@ The name of the module you use as the meta of the module definition is 'WeaponSk
 | locked | Boolean | \(Optional\) If set to true, it will act like the old legendary skins and won't allow the weapon modification if the skin is applied |
 | unique\_name | String | \(Optional\) If set to true, it will make the current weapon name the same as the skin name in the player's inventory. They cannot modify it afterwards |
 | texture\_bundle\_folder | String | \(Optional\) The folder that contains the textures |
-
-skin\_folder\|String\|...\| \|skin\_attachments\|Table\|The attachments that should be added to the weapon if the skin is applied\|
+| skin\_folder | String | ... |
+| skin\_attachments | Table | The attachments that should be added to the weapon if the skin is applied | 
 
 And any value that appears in the tweak\_data should merge
 

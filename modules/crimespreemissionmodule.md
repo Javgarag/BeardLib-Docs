@@ -4,7 +4,7 @@ Updated for version 3.38.
 
 ## Module Definition
 
-The module is inherited from [ModuleBase](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/ModuleBase). So base parameters can be found there.
+The module is inherited from [ModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase). So base parameters can be found there.
 
 This module is used to add your level to the crime spree pool
 

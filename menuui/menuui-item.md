@@ -2,7 +2,7 @@
 
 Updated for version 3.38.
 
-Back to [MenuUI](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI)
+Back to [MenuUI](https://luffyyy.gitbook.io/beardlib/menuui)
 
 All items including menus inherit the **Item** class. This means that all values and functions that this class has they have too. **This includes Menus too**.
 
@@ -265,20 +265,20 @@ _All functions return the item that is created_
 
 | Function | Description |
 | :--- | :--- |
-| Button\(Table params\)/Divider\(Table params\) | Creates a [button](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Item) item. \(Divider is Button with divider\_type set to true\) |
-| Toggle\(Table params\) | Creates a [toggle](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Toggle) item |
-| ComboBox\(Table params\) | Creates a [combobox](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-ComboBox) item |
-| TextBox\(Table params\)/NumberBox\(Table params\) | Creates a [text box](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-TextBox) item. \(NumberBox is TextBox with filter set to "Number"\) |
-| ColorTextBox\(Table params\) | Creates a [color text box](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-TextBox#colortextbox) item |
-| Slider\(Table params\) | Creates a [slider](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Slider) item |
-| KeyBind\(Table params\) | Creates a [keybind](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-KeyBind) item |
-| Image/ImageButton\(Table params\) | Creates an [image button](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-ImageButton) item \(Image is ImageButton with divider\_type set to true\) |
-| Holder\(Table params\) | Creates a [holder](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Menus#holder) |
-| Menu\(Table params\) | Creates a [menu](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Menus#menu) |
-| Group\(Table params\)/DivGroup\(Table params\) | Creates a [group](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Menus#groupdivgroup) \(DivGroup is Group with divider\_type set to true\) |
-| NoteBook\(Table params\) | Creates a [notebook](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Menus#notebook) |
-| ToolBox\(Table params\) | Creates a [holder](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Menus#holder) that has align set to "grid" which means items stack from left, perfect for toolbars |
-| PopupMenu\(Table params\) | Creates a [popup menu](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Menus#popupmenu) |
+| Button\(Table params\)/Divider\(Table params\) | Creates a [button](https://luffyyy.gitbook.io/beardlib/menuui/menuui-item) item. \(Divider is Button with divider\_type set to true\) |
+| Toggle\(Table params\) | Creates a [toggle](https://luffyyy.gitbook.io/beardlib/menuui/menuui-toggle) item |
+| ComboBox\(Table params\) | Creates a [combobox](https://luffyyy.gitbook.io/beardlib/menuui/menuui-combobox) item |
+| TextBox\(Table params\)/NumberBox\(Table params\) | Creates a [text box](https://luffyyy.gitbook.io/beardlib/menuui/menuui-textbox) item. \(NumberBox is TextBox with filter set to "Number"\) |
+| ColorTextBox\(Table params\) | Creates a [color text box](https://luffyyy.gitbook.io/beardlib/menuui/menuui-textbox#colortextbox) item |
+| Slider\(Table params\) | Creates a [slider](https://luffyyy.gitbook.io/beardlib/menuui/menuui-slider) item |
+| KeyBind\(Table params\) | Creates a [keybind](https://luffyyy.gitbook.io/beardlib/menuui/menuui-keybind) item |
+| Image/ImageButton\(Table params\) | Creates an [image button](https://luffyyy.gitbook.io/beardlib/menuui/menuui-imagebutton) item \(Image is ImageButton with divider\_type set to true\) |
+| Holder\(Table params\) | Creates a [holder](https://luffyyy.gitbook.io/beardlib/menuui/menuui-menus#holder) |
+| Menu\(Table params\) | Creates a [menu](https://luffyyy.gitbook.io/beardlib/menuui/menuui-menus#menu) |
+| Group\(Table params\)/DivGroup\(Table params\) | Creates a [group](https://luffyyy.gitbook.io/beardlib/menuui/menuui-menus#group-divgroup) \(DivGroup is Group with divider\_type set to true\) |
+| NoteBook\(Table params\) | Creates a [notebook](https://luffyyy.gitbook.io/beardlib/menuui/menuui-menus#notebook) |
+| ToolBox\(Table params\) | Creates a [holder](https://luffyyy.gitbook.io/beardlib/menuui/menuui-menus#holder) that has align set to "grid" which means items stack from left, perfect for toolbars |
+| PopupMenu\(Table params\) | Creates a [popup menu](https://luffyyy.gitbook.io/beardlib/menuui/menuui-menus#popupmenu) |
 | Text\(String text, Table params\) | Quick function to create a divider without needing to use a table |
 | Create\(String type, ...\) | Allows creating any type of item from one function. For example `Item:Create("Button", {text = "something"})`. There are specific cases you'd want to use it |
 

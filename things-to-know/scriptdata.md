@@ -101,7 +101,7 @@ See this? It created 2 tables. Both are the same table, but we now have a key an
 
 #### So how do we solve this?
 
-Using [BeardLib.Utils.XML:Clean\(...\)](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/BeardLib.Utils.XML#other)! As the function's description says, it removes keys when they are not needed and indices when they are not needed. In this instance, it would remove the index since we don't have 2 nodes with the same meta name. So if we convert it again \(conversion function has a clean parameter which calls this function\):
+Using [BeardLib.Utils.XML:Clean\(...\)](https://luffyyy.gitbook.io/beardlib/utilities/beardlib.utils.xml#other)! As the function's description says, it removes keys when they are not needed and indices when they are not needed. In this instance, it would remove the index since we don't have 2 nodes with the same meta name. So if we convert it again \(conversion function has a clean parameter which calls this function\):
 
 ```lua
 {

@@ -4,7 +4,7 @@ Updated for version 3.38.
 
 ## Module Definition
 
-The module is inherited from [ModuleBase](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/ModuleBase). So base parameters can be found there.
+The module is inherited from [ModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase). So base parameters can be found there.
 
 Let's you make a global value. A global value is a great way to label your custom weapons, melee etc. You'll see a lot of times weapons saying "This is an X weapon!" This is basically it. Almost all custom item modules have a parameter named `global_value` which you set to the ID of this module that you create.
 
@@ -39,5 +39,5 @@ This example is what you would put inside your main node within your [mod config
 <GlobalValue id="beard" color="Color('ffffff')"/>
 ```
 
-This will add a DLC named beard. You will need to localize name\_id and desc\_id \([LocalizationModule](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/LocalizationModule)\)
+This will add a DLC named beard. You will need to localize name\_id and desc\_id \([LocalizationModule](https://luffyyy.gitbook.io/beardlib/modules/localizationmodule)\)
 

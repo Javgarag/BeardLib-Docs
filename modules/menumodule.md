@@ -4,7 +4,7 @@ Updated for version 3.38.
 
 ## Module Definition
 
-The module is inherited from [ModuleBase](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/ModuleBase). So base parameters can be found there.
+The module is inherited from [ModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase). So base parameters can be found there.
 
 **Note**: The module is one of the original modules of BeardLib and was never really touched until version 3.38. It's still missing some features and is really only used to build menus and nodes and not the items themselves. It's used in PDTH HUD to build the options menu inside a sub menu.
 

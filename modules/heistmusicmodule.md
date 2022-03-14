@@ -4,7 +4,7 @@ Updated for version 4.4.
 
 ## Module Definition
 
-The module is inherited from [ItemModuleBase](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/ModuleBase#ItemModuleBase). So base parameters can be found there.
+The module is inherited from [ItemModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase#itemmodulebase). So base parameters can be found there.
 
 This modules creates a heist track.
 

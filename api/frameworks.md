@@ -19,7 +19,7 @@ Access with `BeardLib.Frameworks.Base`
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
 | \_directory | String | The directory of the mods that the framework should load. In this case it's set to "mods/" |
-| \_mod\_core | Class | The class that the mod of this framework should initialize in. All frameworks use [ModCore](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/ModCore) |
+| \_mod\_core | Class | The class that the mod of this framework should initialize in. All frameworks use [ModCore](https://luffyyy.gitbook.io/beardlib/api/modcore) |
 | main\_file\_name | String | The main file that the framework should load. All frameworks use "main.xml" |
 | auto\_init\_module | Boolean | Automatically initialize the modules in this framework? |
 | \_ignore\_folders | Table | A table of folders that the framework should ignore. The values inside are folder = true |
@@ -73,14 +73,14 @@ The framework for custom maps basically your "Maps" folder.
 
 Access with `BeardLib.Frameworks.Map`
 
-Inherits BaseFramework and does the following things: Sets `_directory` to "Maps" Sets `_ignored_folders` to {"backups", "prefabs"} to ignore the default editor folders\|
+Inherits BaseFramework and does the following things: Sets `_directory` to "Maps" Sets `_ignored_folders` to {"backups", "prefabs"} to ignore the default editor folders
 
 ## Modules of interest
 
-* [ContactModule](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/ContactModule)
-* [LevelModule](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/LevelModule)
-* [NarrativeModule](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/NarrativeModule)
-* [LocalizationModule](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/LocalizationModule)
+* [ContactModule](https://luffyyy.gitbook.io/beardlib/modules/contactmodule)
+* [LevelModule](https://luffyyy.gitbook.io/beardlib/modules/levelmodule)
+* [NarrativeModule](https://luffyyy.gitbook.io/beardlib/modules/narrativemodule)
+* [LocalizationModule](https://luffyyy.gitbook.io/beardlib/modules/localizationmodule)
 
 ### Functions
 

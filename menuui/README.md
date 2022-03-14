@@ -99,25 +99,25 @@ MenuUI can only build menus \(although items can be menus they are still conside
 
 | Function | Description |
 | :--- | :--- |
-| Holder\(Table params\) | Creates a [holder](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Menus#Holder) |
-| Menu\(Table params\) | Creates a [menu](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Menus#Menu) |
-| Group\(Table params\)/DivGroup\(Table params\) | Creates a [group](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Menus#groupdivgroup) \(DivGroup is Group with divider\_type set to true\) |
-| NoteBook\(Table params\) | Creates a [notebook](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Menus#NoteBook) |
-| ToolBox\(Table params\) | Creates a [holder](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Menus#Holder) that has align set to "grid" which means items stack from left, perfect for toolbars |
-| PopupMenu\(Table params\) | Creates a [popup menu](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Menus#PopupMenu) |
+| Holder\(Table params\) | Creates a [holder](https://luffyyy.gitbook.io/beardlib/menuui/menuui-menus#holder) |
+| Menu\(Table params\) | Creates a [menu](https://luffyyy.gitbook.io/beardlib/menuui/menuui-menus#menu) |
+| Group\(Table params\)/DivGroup\(Table params\) | Creates a [group](https://luffyyy.gitbook.io/beardlib/menuui/menuui-menus#group-divgroup) \(DivGroup is Group with divider\_type set to true\) |
+| NoteBook\(Table params\) | Creates a [notebook](https://luffyyy.gitbook.io/beardlib/menuui/menuui-menus#notebook) |
+| ToolBox\(Table params\) | Creates a [holder](https://luffyyy.gitbook.io/beardlib/menuui/menuui-menus#holder) that has align set to "grid" which means items stack from left, perfect for toolbars |
+| PopupMenu\(Table params\) | Creates a [popup menu](https://luffyyy.gitbook.io/beardlib/menuui/menuui-menus#popupmenu) |
 
 ## All items
 
 MenuUI has a few items. Each item can be a menu but menus are always menus. Meaning that items by default are not menus; they don't run any menu events. But, if you add an item to the item it will act like a menu. This is done to have a button inside a button for example. **All items inherit the Item class!**
 
-Read about [Item](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Item) before reading about any other item. As all items, including menus, inherit it. Most of the menu functions are documented there too.
+Read about [Item](https://luffyyy.gitbook.io/beardlib/menuui/menuui-item) before reading about any other item. As all items, including menus, inherit it. Most of the menu functions are documented there too.
 
-* [Item/Button/Divider](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Item)
-* [Menus](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Menus)
-* [Toggle](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Toggle)
-* [ComboBox](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-ComboBox)
-* [Slider](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Slider)
-* [TextBox/NumberBox/ColorTextBox](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-TextBox)
-* [KeyBind](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-Keybind)
-* [Image/ImageButton](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/MenuUI-ImageButton)
+* [Item/Button/Divider](https://luffyyy.gitbook.io/beardlib/menuui/menuui-item)
+* [Menus](https://luffyyy.gitbook.io/beardlib/menuui/menuui-menus)
+* [Toggle](https://luffyyy.gitbook.io/beardlib/menuui/menuui-toggle)
+* [ComboBox](https://luffyyy.gitbook.io/beardlib/menuui/menuui-combobox)
+* [Slider](https://luffyyy.gitbook.io/beardlib/menuui/menuui-slider)
+* [TextBox/NumberBox/ColorTextBox](https://luffyyy.gitbook.io/beardlib/menuui/menuui-textbox)
+* [KeyBind](https://luffyyy.gitbook.io/beardlib/menuui/menuui-keybind)
+* [Image/ImageButton](https://luffyyy.gitbook.io/beardlib/menuui/menuui-imagebutton)
 

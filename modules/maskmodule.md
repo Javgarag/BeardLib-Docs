@@ -1,7 +1,7 @@
 Updated for version 3.38.
 # Module Definition
 
-The module is inherited from [ItemModuleBase](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/ModuleBase#ItemModuleBase). So base parameters can be found there.
+The module is inherited from [ItemModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase#itemmodulebase). So base parameters can be found there.
 
 This modules let's you add masks.
 
@@ -19,8 +19,8 @@ The name of the module you use as the meta of the module definition is 'Mask' or
 |--|--|--|
 |id|String|The ID of the material|
 |type|String|The type of the mask. Can be helmet, beard, glasses and mask. Defaults to mask.
-|global_value|String|For packs of mods, a global id assigned to all. A nice way to label your mods. You'll still have to create the global value through [GlobalValueModule](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/GlobalValueModule)
-|unit|String|Optional path to the unit of the mask. Defaults to units/mods/masks/msk_`id`/msk_`id` You still need to add it through [AddFiles](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/AddFilesModule) and all its dependencies such as object and material config.|
+|global_value|String|For packs of mods, a global id assigned to all. A nice way to label your mods. You'll still have to create the global value through [GlobalValueModule](https://luffyyy.gitbook.io/beardlib/modules/globalvaluemodule)
+|unit|String|Optional path to the unit of the mask. Defaults to units/mods/masks/msk_`id`/msk_`id` You still need to add it through [AddFiles](https://luffyyy.gitbook.io/beardlib/modules/addfilesmodule) and all its dependencies such as object and material config.|
 |offsets|Table|Optional table of offsets for each character. Should look something like this: <br>`<offsets>`<br>`<old_hoxton>`<br>`<value_node value="0 0 0">`<br>`<value_node value="Rotation(0,0,0)">`<br>`</old_hoxton>`<br>`</offsets>`<br>Each character needs position and rotation offset. First is position and second is rotation.
 |name_id|String|Localization ID for the title of the mask (Defaults to bm_msk_ + `id`)
 |desc_id|String|Localization ID for the description of the mask (Defaults to bm_msk_ + `id`)
@@ -31,7 +31,7 @@ The name of the module you use as the meta of the module definition is 'Mask' or
 And any other tweakdata value. There are more that are not listed here yet.
 
 ### The icon
-The icon will be stored in guis/dlcs/mods/textures/pd2/blackmarket/icons/masks and will be named `id`.texture then add it using [AddFiles](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/AddFilesModule).
+The icon will be stored in guis/dlcs/mods/textures/pd2/blackmarket/icons/masks and will be named `id`.texture then add it using [AddFiles](https://luffyyy.gitbook.io/beardlib/modules/addfilesmodule).
 
 
 ## Example
@@ -42,7 +42,7 @@ This example is what you would put inside your main node within your [mod config
 <Mask id="my_cool_mask" type="helmet"/>
 ```
 
-This will add the mask `my_cool_mask`. You will still need to localize the title and description of the mask. In this case `bm_msk_my_cool_mask` and `bm_msk_my_cool_mask_desc` will need to be localized using [LocalizationModule](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/LocalizationModule). And add unit, object, material_config, textures and icon through [AddFiles](https://github.com/simon-wh/PAYDAY-2-BeardLib/wiki/AddFilesModule)
+This will add the mask `my_cool_mask`. You will still need to localize the title and description of the mask. In this case `bm_msk_my_cool_mask` and `bm_msk_my_cool_mask_desc` will need to be localized using [LocalizationModule](https://luffyyy.gitbook.io/beardlib/modules/localizationmodule). And add unit, object, material_config, textures and icon through [AddFiles](https://luffyyy.gitbook.io/beardlib/modules/addfilesmodule)
 
 ### Template
 Download template here: [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Luffyyy/BeardLib-Templates/tree/master/Mask-Template)

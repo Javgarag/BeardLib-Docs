@@ -4,7 +4,7 @@ Updated for version 3.38.
 
 MenuHelperPlus is effectively an extension on the 'MenuHelper' found in the base of BLT. So you will find that a lot of variable names will be the same \(intentionally\).
 
-Side note: `merge_data` will be used a lot in this page, effectively it means a table that should be merged using [table.merge](https://github.com/GreatBigBushyBeard/PAYDAY-2-BeardLib/wiki/Main#tablemergebase_table-new_table). So extra variables that you want included can be put into that table and they will be added to the main table.
+Side note: `merge_data` will be used a lot in this page, effectively it means a table that should be merged using [table.merge](https://luffyyy.gitbook.io/beardlib/utilities/table#functions). So extra variables that you want included can be put into that table and they will be added to the main table.
 
 ## Functions
 
