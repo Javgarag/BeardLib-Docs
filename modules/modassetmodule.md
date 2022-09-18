@@ -21,6 +21,9 @@ The name of the module you use as the meta of the module definition is 'AssetUpd
         <value_node value/>
         ...
     </folder_name>
+    <optional_versions>
+        ...
+    </optional_versions>
 </AssetUpdates>
 ```
 
@@ -41,6 +44,7 @@ The name of the module you use as the meta of the module definition is 'AssetUpd
 | dont\_delete | Boolean | \(Defaults to false\)  Doesn't delete the mod folder when updating. This is useful if your mod contains things users might want to change and you don't wish for that content to be deleted each update |
 | branch | String | The github branch to get files from. only used if release is false |
 | release | Boolean | If set to true, get the latest github release instead of latest commit |
+| optional_versions | Table | A Table containing AssetUpdates Modules to be used as optional versions |
 
 ### Example
 
@@ -72,6 +76,23 @@ For release based updating:
 ```
 
 The `version` should be the same as the tag of the release.
+
+### Optional versions
+
+This example showcases optional versions, which can be enabled in the mod settings in the BeardLib Mod Manager.
+
+The optional versions table should contain AssetUpdates modules with their module name replaced with the name you wish to list in the settings menu. The root element will be the `stable` version. 
+
+```markup 
+<AssetUpdates provider="github" custom_name="GitHub Update" branch="master" id="simon-wh/PAYDAY-2-BeardLib" dont_delete="true">
+    <optional_versions>
+        <alpha provider="github" branch="testing-alpha" id="simon-wh/PAYDAY-2-BeardLib" />
+        <beta provider="github" branch="testing-beta" id="simon-wh/PAYDAY-2-BeardLib" />
+        <latest-stable id="14924" version="4.8" provider="modworkshop" important="true" version_is_number="true"/>
+    </optional_versions>
+</AssetUpdates>
+```
+
 
 ### Custom providers
 
