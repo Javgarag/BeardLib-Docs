@@ -57,6 +57,8 @@ _those values are mostly optional_ _if defined from the sounds node, all sounds 
 | wait | Number | Wait x seconds before playing the sound? |
 | prefixes\_strict | Boolean | Normally the sound will play if at least **one** of the prefixes matches the sound. This makes the sound play only when **all** prefixes match |
 | loop | Boolean | Should the sound loop? |
+| min_distance | Float | Distance in meters at which the sound will be played at full volume (default is 5) |
+| max_distance | Float | Distance in meters at which the sound will no longer be audible (default is 50) |
 
 ### Example
 
