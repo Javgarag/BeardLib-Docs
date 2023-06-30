@@ -15,4 +15,4 @@ The name of the module you use as the meta of the module definition is 'StealthM
 ### XML Structure
 
 This module functions the exact same as [HeistMusicModule](https://luffyyy.gitbook.io/beardlib/modules/heistmusicmodule), with the exceptions of the music event names.
-Stealth music event names are suspense_1, suspense_2, suspense_3 and suspense_4.
+Stealth music event names are suspense_1, suspense_2, suspense_3, suspense_4 and suspense_5.
