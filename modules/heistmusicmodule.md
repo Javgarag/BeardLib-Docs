@@ -37,9 +37,7 @@ The name of the module you use as the meta of the module definition is 'HeistMus
 | volume                          | Float   | Volume of this specific music event                                                                                           |
 | allow\_switch                   | Bool    | Wether a random track is selected each loop or only once per event if multiple tracks are available (See `<track>` node)      |
 | weight                          | Integer | Base weight of any tracks added via `<track>` nodes (See `<track>` node)                                                      |
-| alt\_source (deprecated)        | String  | Use `<track>` nodes instead                                                                                                   |
-| alt\_chance (deprecated)        | Float   | Use `<track>` nodes instead                                                                                                   |
-| alt\_start\_source (deprecated) | String  | Use `<track>` nodes instead                                                                                                   |
+| play_order                      | String  | Order in which multiple tracks are played, possible values are `random` (default), `shuffle`, `sequence` and `loop`           |
 
 **\<track source>**
 
