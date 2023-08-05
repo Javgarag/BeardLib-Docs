@@ -17,6 +17,7 @@
   * [Elements](modules/elementsmodule.md)
   * [Global Value (Tagging weapons/etc)](modules/globalvaluemodule.md)
   * [Heist Music](modules/heistmusicmodule.md)
+    * [Stealth Music](modules/stealthmusicmodule.md)
   * [Hooks](modules/hooksmodule.md)
   * [Interactions](modules/interactionsmodule.md)
   * [Keybind](modules/keybindmodule.md)
