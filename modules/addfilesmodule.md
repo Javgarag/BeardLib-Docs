@@ -1,6 +1,6 @@
 # Add Files
 
-Updated for version 4.0.
+Updated for version 5.0.2.
 
 The module inherits [ModuleBase](https://luffyyy.gitbook.io/beardlib/modules/modulebase). All parameters and functions of this class are inherited by the module.
 
@@ -38,6 +38,7 @@ The name of the module you use as the meta of the module definition is 'AddFiles
 | full\_path | String | Allows you to define a full path instead of automatic path that is constructed from the `directory` value |  |
 | auto\_cp | Boolean | Determines if an automatic cooked physics should be loaded. This means a cooked physics from BeardLib there isn't a need to create a file for it. This is highly recommended when your cooked physics is 0 bytes. Some units don't require a cooked_physics file. \_Can be inherited from the parent node_ |  |
 | use\_clbk | String | Pointer to a function which should return a value that determines if the file should be added. Example: "self:UseClbk" |  |
+| language | String | Some filetypes, like soundbanks \(`bnk`\), may have language-specific variations. These need to be specified in order for the file to load. Example: the file `regular_vox.english.bnk` is in the "english" language. |  |
 
 ## `<add ...>`
 
